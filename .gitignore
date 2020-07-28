@@ -1,5 +1,4 @@
 *.tmp
 **/build
 **/node_modules
-.vscode
 node/src/**/*.js

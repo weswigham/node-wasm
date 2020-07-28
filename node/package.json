@@ -15,6 +15,6 @@
   "type": "module",
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "typescript": "file://../../TypeScript"
+    "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/80811/artifacts?artifactName=tgz&fileId=1380FCF7BD82EFBC97A07E1949B757ECB181FE3000C238A5C485E5901051D6B602&fileName=/typescript-4.0.0-insiders.20200728.tgz"
   }
 }
