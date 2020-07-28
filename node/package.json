@@ -7,8 +7,14 @@
   },
   "main": "src/main.js",
   "scripts": {
-    "start": "node --experimental-modules --experimental-wasm-modules src/main.js"
+    "start": "npm run build && node --experimental-modules --experimental-wasm-modules src/main.js",
+    "build": "cd src && tsc",
+    "clean": "cd src && rimraf main.js"
   },
   "author": "Floris de Haan & Wesley Wigham",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "file://../../TypeScript"
+  }
 }
