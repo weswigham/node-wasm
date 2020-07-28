@@ -11,5 +11,7 @@ const build = callback => {
   ], callback);
 };
 
+gulp.task("watch", () => gulp.watch(["src/tsconfig.json", "src/**/*.ts"], build));
+
 exports.build = build;
 exports.default = build;

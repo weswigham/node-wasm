@@ -7,7 +7,8 @@
   },
   "main": "src/main.js",
   "scripts": {
-    "start": "node --experimental-modules --experimental-wasm-modules src/main.mjs"
+    "start": "node --experimental-modules --experimental-wasm-modules src/main.js"
   },
-  "author": "Floris de Haan"
+  "author": "Floris de Haan & Wesley Wigham",
+  "type": "module"
 }
