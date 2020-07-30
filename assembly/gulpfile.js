@@ -6,6 +6,7 @@ const build = callback => {
     "main.ts",
     "--baseDir", "src",
     "--binaryFile", "../build/main.wasm",
+    "--runtime", "stub",
     "--sourceMap",
     "--measure"
   ], callback);
